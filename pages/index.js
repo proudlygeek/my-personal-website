@@ -16,15 +16,27 @@ export default function Home() {
   return (
     <div className="bg-white dark:bg-gray-900">
       <Head>
-        <title>Gianluca Bargelli</title>
+        <title>Gianluca Bargelli - Software Developer</title>
+        <meta name="description" content="Co-founder and CTO at Callbell, loves building and scaling distributed web applications" />
+        <meta name="msapplication-TileColor" content="#da532c" />
+        <meta name="theme-color" content="#ffffff" />
+        <meta name="keywords" content="callbell, whatsapp, facebook messenger, ruby on rails, react, elixir, golang" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://gianlucabargelli.dev"/>
+        <meta property="og:title" content="Gianluca Bargelli - Software Developer" />
+        <meta property="og:description" content="Co-founder and CTO at Callbell, loves building and scaling distributed web applications" />
+        <meta property="og:image" content="https://gianlucabargelli.dev/android-chrome-384x384.png" />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://gianlucabargelli.dev" />
+        <meta property="twitter:title" content="Gianluca Bargelli - Software Developer" />
+        <meta property="twitter:description" content="Co-founder and CTO at Callbell, loves building and scaling distributed web applications" />
+        <meta property="twitter:image" content="https://gianlucabargelli.dev/android-chrome-384x384.png" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest" />
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
-        <meta name="msapplication-TileColor" content="#da532c" />
-        <meta name="theme-color" content="#ffffff" />
       </Head>
 
       <main className="container px-10 py-4 mx-auto h-screen w-full flex flex-col items-center justify-center">

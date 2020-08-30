@@ -16,6 +16,8 @@ export default function Home() {
   return (
     <div className="bg-white dark:bg-gray-900">
       <Head>
+        <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossOrigin="true" />
         <title>Gianluca Bargelli - Software Developer</title>
         <meta name="description" content="Co-founder and CTO at Callbell, loves building and scaling distributed web applications" />
         <meta name="msapplication-TileColor" content="#da532c" />
@@ -37,6 +39,7 @@ export default function Home() {
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest" />
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Source+Sans+Pro&display=swap" rel="stylesheet" />
       </Head>
 
       <main className="container px-10 py-4 mx-auto h-screen w-full flex flex-col items-center justify-center">

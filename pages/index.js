@@ -46,7 +46,7 @@ export default function Home() {
         <div className="font-serif text-4xl text-gray-800 dark:text-white font-bold mb-6">Hi, I'm Gianluca 👋</div>
         <div className="font-sans w-full lg:w-1/2 text-2xl text-gray-600 dark:text-white">
           <p>I'm a Software Developer based in Paris, France and I'm passionate about full-stack development in Ruby on Rails, Elixir and Golang.</p>
-          <p className="mt-6">I'm currently co-founder and CTO of <a href="https://callbell.eu" target="_blank" rel="noopener" className="hover:underline text-blue-400 dark:text-orange-400">Callbell</a>, a shared collaborative inbox for Facebook Messenger, WhatsApp and Telegram.</p>
+          <p className="mt-6">I'm currently co-founder and CTO of <a href="https://callbell.eu" target="_blank" rel="noopener" className="hover:underline text-blue-400 dark:text-orange-400">Callbell</a>, a shared collaborative inbox for Facebook Messenger, WhatsApp, Instagram and Telegram.</p>
         </div>
         <div className="mt-10 flex flew-row align-center items-center">
           <div className="mr-3"><a href="https://github.com/proudlygeek" target="_blank" rel="noopener" aria-label="Visit GitHub" className="hover:text-blue-400 dark:hover:text-orange-400 transition-colors duration-300"><GithubIcon /></a></div>
